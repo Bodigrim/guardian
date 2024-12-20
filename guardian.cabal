@@ -1,16 +1,16 @@
 cabal-version: 2.2
 
--- This file has been generated from package.yaml by hpack version 0.35.0.
+-- This file has been generated from package.yaml by hpack version 0.36.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:           guardian
 version:        0.5.0.0
 synopsis:       The border guardian for your package dependencies
-description:    Guardian secures your Haskell monorepo package dependency boundary. Please read [README.md](https://github.com/deepflowinc/guardian#readme) for more details.
+description:    Guardian secures your Haskell monorepo package dependency boundary. Please read [README.md](https://github.com/deepflowinc-oss/guardian#readme) for more details.
 category:       Development
-homepage:       https://github.com/deepflowinc/guardian#readme
-bug-reports:    https://github.com/deepflowinc/guardian/issues
+homepage:       https://github.com/deepflowinc-oss/guardian#readme
+bug-reports:    https://github.com/deepflowinc-oss/guardian/issues
 author:         DeepFlow, Inc.
 maintainer:     DeepFlow, Inc.
 copyright:      (c) 2021-2023, DeepFlow, Inc.
@@ -24,7 +24,7 @@ data-dir:       data
 
 source-repository head
   type: git
-  location: https://github.com/deepflowinc/guardian
+  location: https://github.com/deepflowinc-oss/guardian
 
 flag cabal
   description: Enables Cabal adapter

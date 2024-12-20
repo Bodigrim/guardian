@@ -32,8 +32,8 @@ If you use VSCode, it is recommended to install the following extensions (as inc
 All the source code (except `Setup.hs`) MUST be formatted with [Fourmolu][fourmolu].
 HLS supports fourmolu as a formatter, so we strongly recommend to use HLS and enable `Format on Save` in your editor.
 
-[issue]: https://github.com/deepflowinc/guardian/issues
-[pulls]: https://github.com/deepflowinc/guardian/pulls
+[issue]: https://github.com/deepflowinc-oss/guardian/issues
+[pulls]: https://github.com/deepflowinc-oss/guardian/pulls
 [splice-issue]: https://gitlab.haskell.org/ghc/ghc/-/issues/20266
 [fourmolu]: https://github.com/fourmolu/fourmolu
 [HLS]: https://github.com/haskell/haskell-language-server

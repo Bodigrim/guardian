@@ -1,6 +1,6 @@
 # guardian - The border guardian for your package dependencies
 
-[![Build & Test](https://github.com/deepflowinc/guardian/actions/workflows/haskell.yml/badge.svg)](https://github.com/deepflowinc/guardian/actions/workflows/haskell.yml)
+[![Build & Test](https://github.com/deepflowinc-oss/guardian/actions/workflows/haskell.yml/badge.svg)](https://github.com/deepflowinc-oss/guardian/actions/workflows/haskell.yml)
 ![Hackage](https://img.shields.io/hackage/v/guardian)
 
 Guardian enforces dependency boundary constraints and keeps your project dependencies sane.
@@ -278,14 +278,14 @@ There are several possibilities in the design of actual DAG of domains, we recom
 
 ## Installation
 
-You can download prebuilt binaries for macOS and Linux from [Release](https://github.com/deepflowinc/guardian/releases/latest).
+You can download prebuilt binaries for macOS and Linux from [Release](https://github.com/deepflowinc-oss/guardian/releases/latest).
 
 You can also use [GitHub Action](#github-actions) in your CI.
 
 To build from source, we recommend using `cabal-install >= 3.8`:
 
 ```sh
-git clone git@github.com/deepflowinc/guardian.git
+git clone git@github.com/deepflowinc-oss/guardian.git
 cd guardian
 cabal install
 ```
@@ -586,7 +586,7 @@ Example workflow:
       - uses: haskell-actions/setup@v2
         with:
           ghc-version: 9.0.2  # Install needed version of ghc
-      - uses: deepflowinc/guardian/action@v0.4.0.0
+      - uses: deepflowinc-oss/guardian/action@v0.4.0.0
         name: Check with guardian
         with:
           backend: cabal    # auto, cabal, or stack; auto if omitted

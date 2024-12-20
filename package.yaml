@@ -4,7 +4,7 @@ license:             BSD-3-Clause
 author:              "DeepFlow, Inc."
 maintainer:          "DeepFlow, Inc."
 copyright:           "(c) 2021-2023, DeepFlow, Inc."
-github:              deepflowinc/guardian
+github:              deepflowinc-oss/guardian
 
 extra-source-files:
 - README.md
@@ -16,7 +16,7 @@ category:            Development
 
 description: 
   Guardian secures your Haskell monorepo package dependency boundary.
-  Please read [README.md](https://github.com/deepflowinc/guardian#readme) for more details.
+  Please read [README.md](https://github.com/deepflowinc-oss/guardian#readme) for more details.
 
 flags:
   cabal:

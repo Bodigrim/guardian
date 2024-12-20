@@ -31,9 +31,9 @@ case "${UNAME}" in
 esac
 
 if [ "${RELEASE}" = "latest" ]; then
-  PAYLOAD=$(curl https://api.github.com/repos/deepflowinc/guardian/releases/latest)
+  PAYLOAD=$(curl https://api.github.com/repos/deepflowinc-oss/guardian/releases/latest)
 else
-  PAYLOAD=$(curl "https://api.github.com/repos/deepflowinc/guardian/releases/tags/v${RELEASE}")
+  PAYLOAD=$(curl "https://api.github.com/repos/deepflowinc-oss/guardian/releases/tags/v${RELEASE}")
 fi
 
 if RELEASE="$(echo "${PAYLOAD}" | jq -r ".name")"; then
